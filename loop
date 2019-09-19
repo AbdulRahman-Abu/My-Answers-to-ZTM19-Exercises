@@ -1,0 +1,14 @@
+// The video on loop. I get different answer from Andrei's answer, Course Owner
+
+var todosList = [
+  "ablution",
+  "pray",
+  "brush",
+  "bath",
+  "eat",
+  "go to work"
+];
+
+for(var i = 0; i < todosList.length; i++) {
+     todosList[i] = todosList[i] + "!";
+};
